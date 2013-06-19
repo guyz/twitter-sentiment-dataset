@@ -1,6 +1,6 @@
 # Overview
 
-This code serves as an extension to [Sanders Analytics twitter sentiment corpus](http://www.sananalytics.com/lab/twitter-sentiment/), originally designed for traning and testing Twitter sentiment analysis algorithms.
+This code serves as an extension to [Sanders Analytics twitter sentiment corpus](http://www.sananalytics.com/lab/twitter-sentiment/), originally designed for training and testing Twitter sentiment analysis algorithms.
 Since twitter has since deprecated their original API, the code had to be modified to support the current version (v1.1). Accordingly, support for OAuth2 has been added, and the running time of the script has been significantly improved.
 
 Running this script will generate ~5K hand-classified tweets. For more information, please refer to 'readme.pdf'.

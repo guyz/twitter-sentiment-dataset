@@ -110,7 +110,7 @@ def get_time_left_str( cur_idx, fetch_list, download_pause ):
 
 def oauth_get_tweet(tid, http_method="GET", post_body='',
         http_headers=None):
-    url = 'http://api.twitter.com/1.1/statuses/show.json?id=' + tid
+    url = 'https://api.twitter.com/1.1/statuses/show.json?id=' + tid
     consumer = oauth.Consumer(key=CONSUMER_KEY, secret=CONSUMER_SECRET)
     token = oauth.Token(key=ACCESS_KEY, secret=ACCESS_SECRET)
     client = oauth.Client(consumer, token)
